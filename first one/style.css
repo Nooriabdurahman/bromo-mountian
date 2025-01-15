@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.body{
+    transition: all 3s;
+}
+.main{
+    background-image: url(./image/image.png);
+    padding-left: 80px;
+    padding-top: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 80px;
+    padding-bottom: 192px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.fun{
+    display: flex;
+    align-items: center;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.funimg{
+    height: 40px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.funimg:hover{
+    height: 50px;
+    width: 50px;
+}
+.pic{
+    font-family: "Roboto", sans-serif;
+    color: white ;
+    cursor: pointer;
+}
+.pic:hover{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.headeroption{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.headeroption:hover{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 60px;
+    /* padding:20px; */
+
+}
+
+.contect{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding-bottom: 12px;
+    color: white;
+}
+.contect:hover{
+    background-color:black;
+    cursor: pointer;
+}
+.Efflortless{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.discover{
+    color: white;
+}
+.Get{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+.Get:hover{
+    background-color: black;
+    border: none;
+    padding-left: 26px;
+    color: #0000FF;
+    padding-right: 26px;
+}
+.buttonsvg{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondmain{
+    padding-left: 80px;
+    padding-top: 32px;
+    padding-right: 80px;
+    padding-bottom: 90px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.this{
+    font-size: small;
+}
+.explore{
+    padding-left: 25px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 25px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.towbutton{
+    display: flex;
+    align-items: center;
+}
+.buttton{
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.memory{
+    width: 400px;
+    cursor: pointer;
+    border-radius: 27px;
+}
+.memory:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+   
+.colomgrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.culture{
+    width: 400px;
+    border-radius: 27px;
+}
+.culture:hover{   
+    cursor: pointer;
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+.firstgrid{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.fourthitem{
+    grid-column: 3;
+}
+.jeep{
+    width: 413px;
+    height: 230px;
+    border-radius: 27px;
+}
+.hey{
+    border-radius: 27px;
+}
+.hey:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+    cursor: pointer;
+}
+.jeep:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+    cursor: pointer; 
+}
+.thirdmain{
+    background: linear-gradient(180deg, #7D7C67 0%, #464F58 100%);
+}
+.thirdmain{
+    padding-top: 62px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 90px;
+}
+.Mountian{
+    color: white;
+    font-weight: 400;
+}
+.readmore{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.read{
+    padding-left: 25px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.read:hover{
+    background-color: #030406;
+    border: none;
+}
+
+.villas{
+    text-align: center;
+}
+.park{
+    font-size: larger;
+    color: white;
+}
+.mou{
+    color: white;
+    margin-top: 57px;
+}
+.secondgrid{
+    grid-template-columns: 629px 629px;
+    display: grid;
+    gap: 20px;
+    column-gap: 20px;
+    grid-template-rows: 406px;
+}
+
+.nam:hover{
+    cursor: pointer;
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+
+.hourse{
+    margin-top: 40px;
+    width: 590px;
+    height: 366px;
+}
+
+.hourse:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+
+.could{
+    width: 400px;
+}
+.could:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+
+.jeeps{
+    width: 400px;
+    margin-top: 6px;
+}
+.jeeps:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+.grass{
+    width: 400px;
+    margin-top: 6px;
+}
+.grass:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+
+.fifthyfive:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+    cursor: pointer;
+}
+
+.shodow{
+    cursor: pointer;
+}
+
+
+.shodow:hover{
+    box-shadow: 0 0 19px #FF0000, 0 0 68px #0000FF;
+}
+.secondpartflex{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.biggest{
+    display: block;
+    margin: auto;
+}
+
+.margin{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondflex {
+    width: 415px;
+}
+
+.fifthysex{
+    position: relative;
+    bottom: 5px;
+}
+.fourtmain{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+.vanyvillas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hear{
+    margin-top: 1px;
+    margin-bottom: 90px;
+}
+.experience{
+    margin-bottom: 1px;
+    margin-top: 90px;
+}
+
+.hotels{
+    width: 313px;
+}
+.calls{
+    float: left;
+}
+.aug{
+    margin-top: 6px;
+}
+.dennes {
+    display: flex;
+    gap: 13px;
+}
+.sexone{
+    background: #F3F3F3;
+    padding-left:24px;
+    border-radius: 17px;
+    padding-top: 31px;
+    width: 413px;
+    height: 239px;
+}
+
+
+
+.sexthy{
+    background: #F3F3F3;
+    height: 239px;
+    padding-left:24px;
+    border-radius: 17px;
+    padding-top: 31px;
+    width: 413px;
+    width: 413px;
+    height: 239px;
+}
+
+.firstjj{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: mymoveone 17s infinite;
+    animation-timing-function: linear;
+}
+.h3school{
+    margin: 0;
+}
+
+/* .bromo{
+    color: #000000;
+} */
+.jiwa{
+    margin: 0;
+}
+
+.indonisia{
+    background: #C0C0C0;
+    padding-top: 19px;
+    padding-left: 30px;
+    padding-bottom: 31px;
+    padding-right: 31px;
+    border-radius: 0px 0px 17px 17px;
+    position: relative;
+    bottom: 5px;
+}
+
+.hundred{
+    margin: 0;
+}
+.school {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pic1{
+    display: none;
+}
+
+@keyframes mymoveone {
+    from{ left: -1400px;}
+    to{left: 1465px;}
+}
+
+
+
+
+.secondjj{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    animation: mymovetow 17s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymovetow {
+    from{ left:  1400px ;}
+    to{left: -1400px;}
+}
+
+
+.sexflexs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+footer{
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #030406;
+    padding-top: 61px;
+    padding-bottom: 199px;
+    display: flex;
+    gap: 106px;
+}
+.Jobs{
+color: #787878;
+cursor: pointer;
+}
+.bold{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.condiction{
+    display: flex;
+    gap: 119px;
+}
+.newsletter{
+    color: white;
+}
+.miss{
+    color: #787878;
+}
+.funimg1{
+    display: none;
+}
+
+input{
+    background-color: transparent;
+    padding-top: 9px;
+    padding-bottom:9px;
+    padding-left:19px;
+    border: 1px solid #4F4F50;
+    border-radius: 30px;
+    width: 454px;
+    color: white;
+}
+.sumbet{
+    padding-left:23px;
+    padding-right: 23px;
+    padding-top: 7px;
+    margin-top: 3px;
+    padding-bottom: 7px;
+    background: #666464;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+    right: 99px;
+    cursor: pointer;
+}
+.sumbet:hover{
+    background-color:rgb(0, 0, 90);
+}
+
+
+.noon{
+    display: contents;
+}
+.child{
+    display: contents;
+}
+
+.towfirstone{
+    display: contents;
+}
+@media (min-width: 769px) and (max-width: 1400px){
+    .noon{
+        display: flex;
+        gap: 20px;
+    }
+    .firstgrid{
+        flex-direction: column;
+    }
+    .colomgrid{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .jeep{
+        width: 412px;
+        height: 254px;
+    }
+    .culture {
+        width: 415px;
+    }
+    .memory{
+        width: 415px;
+    }
+    .biggest{
+        width: 849px;
+        height: 400px;
+    }
+    .park{
+        text-align: center;
+    }
+    .mou{
+        text-align: center;
+    }
+    .secondgrid{
+        grid-template-columns: 626px;
+    }
+    .hourse{
+        width: 630px;
+    }
+    .child{
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .secondpartflex{
+        display: contents;
+    }
+    .grass{
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .vanyvillas{
+        display: contents;
+    }
+    .towfirstone{
+        display: flex;
+        gap: 20px;
+    }
+    .shodow{
+        display: block;
+        margin: auto;
+    }
+    .indonisia{
+        width: 353px;
+        display: block;
+        margin: auto;
+    }
+    .hear{
+        text-align: center;
+    }
+    .experience{
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        width: 417px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .firstgrid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .towbutton{
+        justify-content: center;
+        align-items: center;
+    }
+    .this{
+        font-size: medium;
+        text-align: center;
+    }
+    .biggest{
+        width: 600px;
+        height: 280px;
+    }
+    .secondgrid{
+        display: flex;
+        flex-direction: column;
+    }
+    .hourse{
+        width: 630px;
+    }
+    .secondpartflex{
+        flex-direction: column;
+    }
+    .vanyvillas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .condiction{
+        justify-content: center;
+        gap: 83px;
+    }
+    .outon{
+        margin: auto;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .miss{
+        text-align: center;
+    }
+    input{
+        width: 368px;
+    }
+}
+
+@media (max-width: 425px){
+    .main{
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .funimg{
+        display: none;
+    }
+    .funimg1{
+        display: block;
+    }
+    .pic{
+        display: none;
+    }
+    .pic1{
+        display: block;
+        font-family: "Roboto", sans-serif;
+        color: white ;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    .Efflortless{
+        margin-top: 1000px;
+    }
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: left;
+        position: relative;
+        left: -149px;
+    }
+    header{
+        justify-content: left;
+    }
+}
+
+input#dark-mode {
+    visibility: collapse;
+}
+
+.label{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color:transparent;
+    border-radius: 39px;
+    cursor: pointer;
+    top: 28px;
+}
+
+
+.circle {
+    width: 30px;
+    height: 34px;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    margin: auto;
+    display: block;
+    left: 3px;
+}
+
+
+
+
+.input:checked + .label .circle{
+    animation: toogleon 1s forwards;
+}
+
+.sunlight{
+    width: 36px;
+    margin: auto;
+    display: block;
+}
+
+
+.curser-dot{
+    width: 5px;
+    height: 5px;
+}
+
+.curser-outline{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(4, 0, 255);
+}
+
+.curser-dot,.curser-outline{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+.mt {
+    width: 122px;
+    position: absolute;
+    left: 400px;
+    height: 122px;
+}
+
+.circle{
+    transition: all 3s;
+}
